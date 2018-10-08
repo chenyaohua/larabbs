@@ -19,6 +19,7 @@ return array(
     'f0906e6318348a765ffb6eb24e0d0938' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
     '58571171fd5812e6e447dce228f52f4d' => $vendorDir . '/laravel/framework/src/Illuminate/Support/helpers.php',
     'bd9634f2d41831496de0d3dfe4c94881' => $vendorDir . '/symfony/polyfill-php56/bootstrap.php',
+    '841780ea2e1d6545ea3a253239d59c05' => $vendorDir . '/qiniu/php-sdk/src/Qiniu/functions.php',
     '34122c0574b76bf21c9a8db62b5b9cf3' => $vendorDir . '/cakephp/chronos/src/carbon_compat.php',
     '2cffec82183ee1cea088009cef9a6fc3' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
     'f0e7e63bbb278a92db02393536748c5f' => $vendorDir . '/overtrue/wechat/src/Kernel/Support/Helpers.php',

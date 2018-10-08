@@ -20,6 +20,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
         'bd9634f2d41831496de0d3dfe4c94881' => __DIR__ . '/..' . '/symfony/polyfill-php56/bootstrap.php',
+        '841780ea2e1d6545ea3a253239d59c05' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/functions.php',
         '34122c0574b76bf21c9a8db62b5b9cf3' => __DIR__ . '/..' . '/cakephp/chronos/src/carbon_compat.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
         'f0e7e63bbb278a92db02393536748c5f' => __DIR__ . '/..' . '/overtrue/wechat/src/Kernel/Support/Helpers.php',
@@ -91,6 +92,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             'Ramsey\\Uuid\\' => 12,
         ),
+        'Q' => 
+        array (
+            'Qiniu\\' => 6,
+        ),
         'P' => 
         array (
             'Psy\\' => 4,
@@ -109,6 +114,8 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
             'Overtrue\\LaravelWeChat\\' => 23,
             'Overtrue\\LaravelQueryLogger\\' => 28,
             'Overtrue\\LaravelLang\\' => 21,
+            'Overtrue\\LaravelFilesystem\\Qiniu\\' => 33,
+            'Overtrue\\Flysystem\\Qiniu\\' => 25,
             'Overtrue\\EasySms\\' => 17,
         ),
         'N' => 
@@ -331,6 +338,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             0 => __DIR__ . '/..' . '/ramsey/uuid/src',
         ),
+        'Qiniu\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu',
+        ),
         'Psy\\' => 
         array (
             0 => __DIR__ . '/..' . '/psy/psysh/src',
@@ -382,6 +393,14 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Overtrue\\LaravelLang\\' => 
         array (
             0 => __DIR__ . '/..' . '/overtrue/laravel-lang/src',
+        ),
+        'Overtrue\\LaravelFilesystem\\Qiniu\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/overtrue/laravel-filesystem-qiniu/src',
+        ),
+        'Overtrue\\Flysystem\\Qiniu\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/overtrue/flysystem-qiniu/src',
         ),
         'Overtrue\\EasySms\\' => 
         array (
@@ -3896,6 +3915,13 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Overtrue\\EasySms\\Strategies\\RandomStrategy' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Strategies/RandomStrategy.php',
         'Overtrue\\EasySms\\Support\\Config' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Support/Config.php',
         'Overtrue\\EasySms\\Traits\\HasHttpRequest' => __DIR__ . '/..' . '/overtrue/easy-sms/src/Traits/HasHttpRequest.php',
+        'Overtrue\\Flysystem\\Qiniu\\Plugins\\FetchFile' => __DIR__ . '/..' . '/overtrue/flysystem-qiniu/src/Plugins/FetchFile.php',
+        'Overtrue\\Flysystem\\Qiniu\\Plugins\\FileUrl' => __DIR__ . '/..' . '/overtrue/flysystem-qiniu/src/Plugins/FileUrl.php',
+        'Overtrue\\Flysystem\\Qiniu\\Plugins\\PrivateDownloadUrl' => __DIR__ . '/..' . '/overtrue/flysystem-qiniu/src/Plugins/PrivateDownloadUrl.php',
+        'Overtrue\\Flysystem\\Qiniu\\Plugins\\RefreshFile' => __DIR__ . '/..' . '/overtrue/flysystem-qiniu/src/Plugins/RefreshFile.php',
+        'Overtrue\\Flysystem\\Qiniu\\Plugins\\UploadToken' => __DIR__ . '/..' . '/overtrue/flysystem-qiniu/src/Plugins/UploadToken.php',
+        'Overtrue\\Flysystem\\Qiniu\\QiniuAdapter' => __DIR__ . '/..' . '/overtrue/flysystem-qiniu/src/QiniuAdapter.php',
+        'Overtrue\\LaravelFilesystem\\Qiniu\\QiniuStorageServiceProvider' => __DIR__ . '/..' . '/overtrue/laravel-filesystem-qiniu/src/QiniuStorageServiceProvider.php',
         'Overtrue\\LaravelLang\\Commands\\Publish' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/Commands/Publish.php',
         'Overtrue\\LaravelLang\\FileLoader' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/FileLoader.php',
         'Overtrue\\LaravelLang\\TranslationServiceProvider' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/TranslationServiceProvider.php',
@@ -5132,6 +5158,23 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Psy\\VersionUpdater\\GitHubChecker' => __DIR__ . '/..' . '/psy/psysh/src/VersionUpdater/GitHubChecker.php',
         'Psy\\VersionUpdater\\IntervalChecker' => __DIR__ . '/..' . '/psy/psysh/src/VersionUpdater/IntervalChecker.php',
         'Psy\\VersionUpdater\\NoopChecker' => __DIR__ . '/..' . '/psy/psysh/src/VersionUpdater/NoopChecker.php',
+        'Qiniu\\Auth' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Auth.php',
+        'Qiniu\\Cdn\\CdnManager' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Cdn/CdnManager.php',
+        'Qiniu\\Config' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Config.php',
+        'Qiniu\\Etag' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Etag.php',
+        'Qiniu\\Http\\Client' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Http/Client.php',
+        'Qiniu\\Http\\Error' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Http/Error.php',
+        'Qiniu\\Http\\Request' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Http/Request.php',
+        'Qiniu\\Http\\Response' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Http/Response.php',
+        'Qiniu\\Processing\\ImageUrlBuilder' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Processing/ImageUrlBuilder.php',
+        'Qiniu\\Processing\\Operation' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Processing/Operation.php',
+        'Qiniu\\Processing\\PersistentFop' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Processing/PersistentFop.php',
+        'Qiniu\\Rtc\\AppClient' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Rtc/AppClient.php',
+        'Qiniu\\Storage\\BucketManager' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Storage/BucketManager.php',
+        'Qiniu\\Storage\\FormUploader' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Storage/FormUploader.php',
+        'Qiniu\\Storage\\ResumeUploader' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Storage/ResumeUploader.php',
+        'Qiniu\\Storage\\UploadManager' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Storage/UploadManager.php',
+        'Qiniu\\Zone' => __DIR__ . '/..' . '/qiniu/php-sdk/src/Qiniu/Zone.php',
         'Ramsey\\Uuid\\BinaryUtils' => __DIR__ . '/..' . '/ramsey/uuid/src/BinaryUtils.php',
         'Ramsey\\Uuid\\Builder\\DefaultUuidBuilder' => __DIR__ . '/..' . '/ramsey/uuid/src/Builder/DefaultUuidBuilder.php',
         'Ramsey\\Uuid\\Builder\\DegradedUuidBuilder' => __DIR__ . '/..' . '/ramsey/uuid/src/Builder/DegradedUuidBuilder.php',
