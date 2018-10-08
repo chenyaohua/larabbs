@@ -52,6 +52,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         ),
         'V' => 
         array (
+            'Vinkla\\Hashids\\' => 15,
             'VIACreative\\SudoSu\\' => 19,
         ),
         'T' => 
@@ -152,6 +153,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             'HieuLe\\Active\\' => 14,
             'HieuLe\\ActiveTest\\' => 18,
+            'Hashids\\' => 8,
         ),
         'G' => 
         array (
@@ -159,6 +161,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
             'Gregwar\\' => 8,
+            'GrahamCampbell\\Manager\\' => 23,
         ),
         'F' => 
         array (
@@ -217,6 +220,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Vinkla\\Hashids\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vinkla/hashids/src',
         ),
         'VIACreative\\SudoSu\\' => 
         array (
@@ -474,6 +481,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             0 => __DIR__ . '/..' . '/hieu-le/active/tests',
         ),
+        'Hashids\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hashids/hashids/src',
+        ),
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
@@ -489,6 +500,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Gregwar\\' => 
         array (
             0 => __DIR__ . '/..' . '/gregwar/captcha/src/Gregwar',
+        ),
+        'GrahamCampbell\\Manager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/graham-campbell/manager/src',
         ),
         'Fideloper\\Proxy\\' => 
         array (
@@ -2133,6 +2148,9 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Frozennode\\Administrator\\Includes\\Resize' => __DIR__ . '/..' . '/summerblue/administrator/src/Frozennode/Administrator/Includes/Resize.php',
         'Frozennode\\Administrator\\Menu' => __DIR__ . '/..' . '/summerblue/administrator/src/Frozennode/Administrator/Menu.php',
         'Frozennode\\Administrator\\Validator' => __DIR__ . '/..' . '/summerblue/administrator/src/Frozennode/Administrator/Validator.php',
+        'GrahamCampbell\\Manager\\AbstractManager' => __DIR__ . '/..' . '/graham-campbell/manager/src/AbstractManager.php',
+        'GrahamCampbell\\Manager\\ConnectorInterface' => __DIR__ . '/..' . '/graham-campbell/manager/src/ConnectorInterface.php',
+        'GrahamCampbell\\Manager\\ManagerInterface' => __DIR__ . '/..' . '/graham-campbell/manager/src/ManagerInterface.php',
         'Gregwar\\Captcha\\CaptchaBuilder' => __DIR__ . '/..' . '/gregwar/captcha/src/Gregwar/Captcha/CaptchaBuilder.php',
         'Gregwar\\Captcha\\CaptchaBuilderInterface' => __DIR__ . '/..' . '/gregwar/captcha/src/Gregwar/Captcha/CaptchaBuilderInterface.php',
         'Gregwar\\Captcha\\ImageFileHandler' => __DIR__ . '/..' . '/gregwar/captcha/src/Gregwar/Captcha/ImageFileHandler.php',
@@ -2508,6 +2526,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Hamcrest\\Type\\IsString' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php',
         'Hamcrest\\Util' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php',
         'Hamcrest\\Xml\\HasXPath' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php',
+        'Hashids\\Hashids' => __DIR__ . '/..' . '/hashids/hashids/src/Hashids.php',
+        'Hashids\\HashidsException' => __DIR__ . '/..' . '/hashids/hashids/src/HashidsException.php',
+        'Hashids\\HashidsInterface' => __DIR__ . '/..' . '/hashids/hashids/src/HashidsInterface.php',
+        'Hashids\\Math' => __DIR__ . '/..' . '/hashids/hashids/src/Math.php',
         'HieuLe\\ActiveTest\\ActiveTest' => __DIR__ . '/..' . '/hieu-le/active/tests/ActiveTest.php',
         'HieuLe\\ActiveTest\\Http\\DumpController' => __DIR__ . '/..' . '/hieu-le/active/tests/Http/DumpController.php',
         'HieuLe\\ActiveTest\\Http\\DumpMiddleware' => __DIR__ . '/..' . '/hieu-le/active/tests/Http/DumpMiddleware.php',
@@ -6157,6 +6179,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'VIACreative\\SudoSu\\RouteServiceProvider' => __DIR__ . '/..' . '/viacreative/sudo-su/src/RouteServiceProvider.php',
         'VIACreative\\SudoSu\\ServiceProvider' => __DIR__ . '/..' . '/viacreative/sudo-su/src/ServiceProvider.php',
         'VIACreative\\SudoSu\\SudoSu' => __DIR__ . '/..' . '/viacreative/sudo-su/src/SudoSu.php',
+        'Vinkla\\Hashids\\Facades\\Hashids' => __DIR__ . '/..' . '/vinkla/hashids/src/Facades/Hashids.php',
+        'Vinkla\\Hashids\\HashidsFactory' => __DIR__ . '/..' . '/vinkla/hashids/src/HashidsFactory.php',
+        'Vinkla\\Hashids\\HashidsManager' => __DIR__ . '/..' . '/vinkla/hashids/src/HashidsManager.php',
+        'Vinkla\\Hashids\\HashidsServiceProvider' => __DIR__ . '/..' . '/vinkla/hashids/src/HashidsServiceProvider.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
         'Whoops\\Exception\\Formatter' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Formatter.php',
