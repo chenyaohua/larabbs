@@ -1,16 +1,54 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Models\Link;
 
 class LinksTableSeeder extends Seeder
 {
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
     public function run()
     {
-        // 生成数据集合
-        $links = factory(Link::class)->times(6)->make();
+        
 
-        // 将数据集合转换为数组，并插入到数据库中
-        Link::insert($links->toArray());
+        \DB::table('links')->delete();
+        
+        \DB::table('links')->insert(array (
+            0 => 
+            array (
+                'id' => 1,
+                'title' => 'Monserrat White',
+                'link' => 'http://www.dietrich.com/',
+            ),
+            1 => 
+            array (
+                'id' => 2,
+                'title' => 'Kelton Huels',
+                'link' => 'http://sporer.biz/nihil-molestias-voluptatibus-similique-minus-dolores-voluptas',
+            ),
+            2 => 
+            array (
+                'id' => 3,
+                'title' => 'John Ryan',
+                'link' => 'http://www.mraz.com/recusandae-ex-quos-ipsa-aut-voluptatem-porro-delectus',
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'title' => 'Brooks Gusikowski',
+                'link' => 'http://keeling.net/nihil-consequatur-sint-incidunt-nihil-perferendis',
+            ),
+            4 => 
+            array (
+                'id' => 5,
+                'title' => 'Marcos Wintheiser',
+                'link' => 'https://www.hills.com/ut-sunt-et-earum-quos-qui-harum-qui-nemo',
+            ),
+        ));
+        
+        
     }
 }
