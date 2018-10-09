@@ -87,6 +87,7 @@ return array(
     'Giggsey\\Locale\\' => array($vendorDir . '/giggsey/locale/src'),
     'Fideloper\\Proxy\\' => array($vendorDir . '/fideloper/proxy/src'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
+    'EloquentFilter\\' => array($vendorDir . '/tucker-eric/eloquentfilter/src'),
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/EmailValidator'),
     'EasyWeChat\\' => array($vendorDir . '/overtrue/wechat/src'),
     'EasyWeChatComposer\\' => array($vendorDir . '/easywechat-composer/easywechat-composer/src'),

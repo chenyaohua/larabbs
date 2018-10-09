@@ -178,6 +178,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         ),
         'E' => 
         array (
+            'EloquentFilter\\' => 15,
             'Egulias\\EmailValidator\\' => 23,
             'EasyWeChat\\' => 11,
             'EasyWeChatComposer\\' => 19,
@@ -536,6 +537,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
+        ),
+        'EloquentFilter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tucker-eric/eloquentfilter/src',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
@@ -1698,6 +1703,11 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Egulias\\EmailValidator\\Warning\\QuotedString' => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator/Warning/QuotedString.php',
         'Egulias\\EmailValidator\\Warning\\TLD' => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator/Warning/TLD.php',
         'Egulias\\EmailValidator\\Warning\\Warning' => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator/Warning/Warning.php',
+        'EloquentFilter\\Commands\\MakeEloquentFilter' => __DIR__ . '/..' . '/tucker-eric/eloquentfilter/src/Commands/MakeEloquentFilter.php',
+        'EloquentFilter\\Filterable' => __DIR__ . '/..' . '/tucker-eric/eloquentfilter/src/Filterable.php',
+        'EloquentFilter\\LumenServiceProvider' => __DIR__ . '/..' . '/tucker-eric/eloquentfilter/src/LumenServiceProvider.php',
+        'EloquentFilter\\ModelFilter' => __DIR__ . '/..' . '/tucker-eric/eloquentfilter/src/ModelFilter.php',
+        'EloquentFilter\\ServiceProvider' => __DIR__ . '/..' . '/tucker-eric/eloquentfilter/src/ServiceProvider.php',
         'Error' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/Error.php',
         'Faker\\Calculator\\Iban' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Iban.php',
         'Faker\\Calculator\\Inn' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Inn.php',

@@ -8427,6 +8427,75 @@
         "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles"
     },
     {
+        "name": "tucker-eric/eloquentfilter",
+        "version": "1.3.3",
+        "version_normalized": "1.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Tucker-Eric/EloquentFilter.git",
+            "reference": "44e79edff96e955cd48b4749ba34511537dfeb06"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Tucker-Eric/EloquentFilter/zipball/44e79edff96e955cd48b4749ba34511537dfeb06",
+            "reference": "44e79edff96e955cd48b4749ba34511537dfeb06",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "illuminate/config": "~5.0",
+            "illuminate/console": "~5.0",
+            "illuminate/database": "~5.0",
+            "illuminate/filesystem": "~5.0",
+            "illuminate/pagination": "~5.0",
+            "illuminate/support": "~5.0",
+            "php": ">=5.5.9"
+        },
+        "require-dev": {
+            "mockery/mockery": "^0.9.5",
+            "phpunit/phpunit": "~5.4.0"
+        },
+        "time": "2018-07-10T03:49:30+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "EloquentFilter\\ServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "EloquentFilter\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Eric Tucker",
+                "email": "tucker.ericm@gmail.com"
+            }
+        ],
+        "description": "An Eloquent way to filter Eloquent Models",
+        "keywords": [
+            "eloquent",
+            "filter",
+            "laravel",
+            "model",
+            "query",
+            "search"
+        ]
+    },
+    {
         "name": "tymon/jwt-auth",
         "version": "1.0.0-rc.2",
         "version_normalized": "1.0.0.0-RC2",
