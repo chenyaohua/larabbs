@@ -14,6 +14,7 @@ class CaptchasController extends Controller
         // 格式化手机号 去除 +86 去除空格
         $phone = ltrim(phone($request->phone,'CN','E164'),'+86');
 
+
         $captcha = $captchaBuilder->build();
         $expiredAt = now()->addMinutes(2);
         \Cache::put($key, ['phone' => $phone, 'code' => $captcha->getPhrase()], $expiredAt);
