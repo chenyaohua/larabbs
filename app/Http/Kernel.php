@@ -92,5 +92,8 @@ class Kernel extends HttpKernel
 
         // 接口语言设置
         'change-locale' => \App\Http\Middleware\ChangeLocale::class,
+
+        // CORS
+        'cors' => \Barryvdh\Cors\HandleCors::class,
     ];
 }
