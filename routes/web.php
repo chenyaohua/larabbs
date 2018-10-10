@@ -24,9 +24,16 @@ Route::resource('categories', 'CategoriesController', ['only' => ['show']]);
 
 Route::post('upload_image', 'TopicsController@uploadImage')->name('topics.upload_image');
 
+// 显示 pdf
+Route::get('pdf/topics/{topic}', 'TopicsController@pdf')->name('topics.show.pdf');
+// 显示 Image
+Route::get('image/topics/{topic}', 'TopicsController@image')->name('topics.show.image');
+
 Route::get('topics/{topic}/{slug?}', 'TopicsController@show')->name('topics.show');
 Route::resource('replies', 'RepliesController', ['only' => ['store', 'destroy']]);
 Route::resource('notifications', 'NotificationsController', ['only' => ['index']]);
 Route::get('permission-denied', 'PagesController@permissionDenied')->name('permission-denied');
 
 Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+
+

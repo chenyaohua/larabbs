@@ -46,6 +46,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             'libphonenumber\\' => 15,
         ),
+        'h' => 
+        array (
+            'h4cc\\WKHTMLToPDF\\' => 17,
+        ),
         'X' => 
         array (
             'XdgBaseDir\\' => 11,
@@ -148,6 +152,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
             'Laravel\\Socialite\\' => 18,
             'Laravel\\Horizon\\' => 16,
         ),
+        'K' => 
+        array (
+            'Knp\\Snappy\\' => 11,
+        ),
         'J' => 
         array (
             'JPush\\' => 6,
@@ -205,6 +213,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         ),
         'B' => 
         array (
+            'Barryvdh\\Snappy\\' => 16,
             'Barryvdh\\Debugbar\\' => 18,
         ),
         'A' => 
@@ -223,6 +232,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'libphonenumber\\' => 
         array (
             0 => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src',
+        ),
+        'h4cc\\WKHTMLToPDF\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/h4cc/wkhtmltopdf-amd64',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -488,6 +501,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             0 => __DIR__ . '/..' . '/laravel/horizon/src',
         ),
+        'Knp\\Snappy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/knplabs/knp-snappy/src/Knp/Snappy',
+        ),
         'JPush\\' => 
         array (
             0 => __DIR__ . '/..' . '/jpush/jpush/src/JPush',
@@ -611,6 +628,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Cake\\Chronos\\' => 
         array (
             0 => __DIR__ . '/..' . '/cakephp/chronos/src',
+        ),
+        'Barryvdh\\Snappy\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src',
         ),
         'Barryvdh\\Debugbar\\' => 
         array (
@@ -834,6 +855,15 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Barryvdh\\Debugbar\\Twig\\Extension\\Stopwatch' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/Extension/Stopwatch.php',
         'Barryvdh\\Debugbar\\Twig\\Node\\StopwatchNode' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/Node/StopwatchNode.php',
         'Barryvdh\\Debugbar\\Twig\\TokenParser\\StopwatchTokenParser' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/TokenParser/StopwatchTokenParser.php',
+        'Barryvdh\\Snappy\\Facades\\SnappyImage' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/Facades/SnappyImage.php',
+        'Barryvdh\\Snappy\\Facades\\SnappyPdf' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/Facades/SnappyPdf.php',
+        'Barryvdh\\Snappy\\IlluminateSnappyImage' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/IlluminateSnappyImage.php',
+        'Barryvdh\\Snappy\\IlluminateSnappyPdf' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/IlluminateSnappyPdf.php',
+        'Barryvdh\\Snappy\\ImageWrapper' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/ImageWrapper.php',
+        'Barryvdh\\Snappy\\LumenServiceProvider' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/LumenServiceProvider.php',
+        'Barryvdh\\Snappy\\PdfFaker' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/PdfFaker.php',
+        'Barryvdh\\Snappy\\PdfWrapper' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/PdfWrapper.php',
+        'Barryvdh\\Snappy\\ServiceProvider' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/ServiceProvider.php',
         'Cake\\Chronos\\Chronos' => __DIR__ . '/..' . '/cakephp/chronos/src/Chronos.php',
         'Cake\\Chronos\\ChronosInterface' => __DIR__ . '/..' . '/cakephp/chronos/src/ChronosInterface.php',
         'Cake\\Chronos\\ChronosInterval' => __DIR__ . '/..' . '/cakephp/chronos/src/ChronosInterval.php',
@@ -3572,6 +3602,11 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',
         'JsonSerializable' => __DIR__ . '/..' . '/nesbot/carbon/src/JsonSerializable.php',
+        'Knp\\Snappy\\AbstractGenerator' => __DIR__ . '/..' . '/knplabs/knp-snappy/src/Knp/Snappy/AbstractGenerator.php',
+        'Knp\\Snappy\\Exception\\FileAlreadyExistsException' => __DIR__ . '/..' . '/knplabs/knp-snappy/src/Knp/Snappy/Exception/FileAlreadyExistsException.php',
+        'Knp\\Snappy\\GeneratorInterface' => __DIR__ . '/..' . '/knplabs/knp-snappy/src/Knp/Snappy/GeneratorInterface.php',
+        'Knp\\Snappy\\Image' => __DIR__ . '/..' . '/knplabs/knp-snappy/src/Knp/Snappy/Image.php',
+        'Knp\\Snappy\\Pdf' => __DIR__ . '/..' . '/knplabs/knp-snappy/src/Knp/Snappy/Pdf.php',
         'Laravel\\Horizon\\AutoScaler' => __DIR__ . '/..' . '/laravel/horizon/src/AutoScaler.php',
         'Laravel\\Horizon\\BackgroundProcess' => __DIR__ . '/..' . '/laravel/horizon/src/BackgroundProcess.php',
         'Laravel\\Horizon\\Connectors\\RedisConnector' => __DIR__ . '/..' . '/laravel/horizon/src/Connectors/RedisConnector.php',
@@ -6357,6 +6392,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
+        'h4cc\\WKHTMLToPDF\\WKHTMLToPDF' => __DIR__ . '/..' . '/h4cc/wkhtmltopdf-amd64/WKHTMLToPDF.php',
         'libphonenumber\\AlternateFormatsCountryCodeSet' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/AlternateFormatsCountryCodeSet.php',
         'libphonenumber\\AsYouTypeFormatter' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/AsYouTypeFormatter.php',
         'libphonenumber\\CountryCodeSource' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/CountryCodeSource.php',

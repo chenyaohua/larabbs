@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
     'libphonenumber\\' => array($vendorDir . '/giggsey/libphonenumber-for-php/src'),
+    'h4cc\\WKHTMLToPDF\\' => array($vendorDir . '/h4cc/wkhtmltopdf-amd64'),
     'XdgBaseDir\\' => array($vendorDir . '/dnoegel/php-xdg-base-dir/src'),
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
@@ -74,6 +75,7 @@ return array(
     'Laravel\\Tinker\\' => array($vendorDir . '/laravel/tinker/src'),
     'Laravel\\Socialite\\' => array($vendorDir . '/laravel/socialite/src'),
     'Laravel\\Horizon\\' => array($vendorDir . '/laravel/horizon/src'),
+    'Knp\\Snappy\\' => array($vendorDir . '/knplabs/knp-snappy/src/Knp/Snappy'),
     'JPush\\' => array($vendorDir . '/jpush/jpush/src/JPush'),
     'Intervention\\Image\\' => array($vendorDir . '/intervention/image/src/Intervention/Image'),
     'Illuminate\\' => array($vendorDir . '/laravel/framework/src/Illuminate'),
@@ -105,6 +107,7 @@ return array(
     'Cron\\' => array($vendorDir . '/mtdowling/cron-expression/src/Cron'),
     'Clockwork\\' => array($vendorDir . '/itsgoingd/clockwork/Clockwork'),
     'Cake\\Chronos\\' => array($vendorDir . '/cakephp/chronos/src'),
+    'Barryvdh\\Snappy\\' => array($vendorDir . '/barryvdh/laravel-snappy/src'),
     'Barryvdh\\Debugbar\\' => array($vendorDir . '/barryvdh/laravel-debugbar/src'),
     'App\\' => array($baseDir . '/app'),
     '' => array($vendorDir . '/nesbot/carbon/src'),
