@@ -210,6 +210,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             'Cron\\' => 5,
             'Clockwork\\' => 10,
+            'Chumper\\Zipper\\' => 15,
             'Cake\\Chronos\\' => 13,
         ),
         'B' => 
@@ -632,6 +633,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             0 => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork',
         ),
+        'Chumper\\Zipper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/chumper/zipper/src/Chumper/Zipper',
+        ),
         'Cake\\Chronos\\' => 
         array (
             0 => __DIR__ . '/..' . '/cakephp/chronos/src',
@@ -908,6 +913,11 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
+        'Chumper\\Zipper\\Facades\\Zipper' => __DIR__ . '/..' . '/chumper/zipper/src/Chumper/Zipper/Facades/Zipper.php',
+        'Chumper\\Zipper\\Repositories\\RepositoryInterface' => __DIR__ . '/..' . '/chumper/zipper/src/Chumper/Zipper/Repositories/RepositoryInterface.php',
+        'Chumper\\Zipper\\Repositories\\ZipRepository' => __DIR__ . '/..' . '/chumper/zipper/src/Chumper/Zipper/Repositories/ZipRepository.php',
+        'Chumper\\Zipper\\Zipper' => __DIR__ . '/..' . '/chumper/zipper/src/Chumper/Zipper/Zipper.php',
+        'Chumper\\Zipper\\ZipperServiceProvider' => __DIR__ . '/..' . '/chumper/zipper/src/Chumper/Zipper/ZipperServiceProvider.php',
         'Clockwork\\Authentication\\AuthenticatorInterface' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Authentication/AuthenticatorInterface.php',
         'Clockwork\\Authentication\\NullAuthenticator' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Authentication/NullAuthenticator.php',
         'Clockwork\\Authentication\\SimpleAuthenticator' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Authentication/SimpleAuthenticator.php',
