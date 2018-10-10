@@ -5635,6 +5635,8 @@ return array(
     'Vinkla\\Hashids\\HashidsFactory' => $vendorDir . '/vinkla/hashids/src/HashidsFactory.php',
     'Vinkla\\Hashids\\HashidsManager' => $vendorDir . '/vinkla/hashids/src/HashidsManager.php',
     'Vinkla\\Hashids\\HashidsServiceProvider' => $vendorDir . '/vinkla/hashids/src/HashidsServiceProvider.php',
+    'Watson\\Rememberable\\Query\\Builder' => $vendorDir . '/watson/rememberable/src/Query/Builder.php',
+    'Watson\\Rememberable\\Rememberable' => $vendorDir . '/watson/rememberable/src/Rememberable.php',
     'Webmozart\\Assert\\Assert' => $vendorDir . '/webmozart/assert/src/Assert.php',
     'Whoops\\Exception\\ErrorException' => $vendorDir . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
     'Whoops\\Exception\\Formatter' => $vendorDir . '/filp/whoops/src/Whoops/Exception/Formatter.php',

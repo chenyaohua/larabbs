@@ -54,6 +54,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             'Whoops\\' => 7,
             'Webmozart\\Assert\\' => 17,
+            'Watson\\Rememberable\\' => 20,
         ),
         'V' => 
         array (
@@ -234,6 +235,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Watson\\Rememberable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/watson/rememberable/src',
         ),
         'Vinkla\\Hashids\\' => 
         array (
@@ -6330,6 +6335,8 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Vinkla\\Hashids\\HashidsFactory' => __DIR__ . '/..' . '/vinkla/hashids/src/HashidsFactory.php',
         'Vinkla\\Hashids\\HashidsManager' => __DIR__ . '/..' . '/vinkla/hashids/src/HashidsManager.php',
         'Vinkla\\Hashids\\HashidsServiceProvider' => __DIR__ . '/..' . '/vinkla/hashids/src/HashidsServiceProvider.php',
+        'Watson\\Rememberable\\Query\\Builder' => __DIR__ . '/..' . '/watson/rememberable/src/Query/Builder.php',
+        'Watson\\Rememberable\\Rememberable' => __DIR__ . '/..' . '/watson/rememberable/src/Rememberable.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
         'Whoops\\Exception\\Formatter' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Formatter.php',

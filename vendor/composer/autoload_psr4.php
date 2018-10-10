@@ -11,6 +11,7 @@ return array(
     'XdgBaseDir\\' => array($vendorDir . '/dnoegel/php-xdg-base-dir/src'),
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
+    'Watson\\Rememberable\\' => array($vendorDir . '/watson/rememberable/src'),
     'Vinkla\\Hashids\\' => array($vendorDir . '/vinkla/hashids/src'),
     'VIACreative\\SudoSu\\' => array($vendorDir . '/viacreative/sudo-su/src'),
     'Tymon\\JWTAuth\\' => array($vendorDir . '/tymon/jwt-auth/src'),
