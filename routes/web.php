@@ -32,6 +32,10 @@ Route::get('pdf/topics/{topic}', 'TopicsController@pdf')->name('topics.show.pdf'
 // 显示 Image
 Route::get('image/topics/{topic}', 'TopicsController@image')->name('topics.show.image');
 
+// 导出 excel
+Route::get('topics/excel', 'TopicsController@excel')->name('topics.excel');
+Route::post('topics/export', 'TopicsController@export')->name('topics.export');
+Route::post('topics/import', 'TopicsController@import')->name('topics.import');
 Route::get('topics/{topic}/{slug?}', 'TopicsController@show')->name('topics.show');
 Route::resource('replies', 'RepliesController', ['only' => ['store', 'destroy']]);
 Route::resource('notifications', 'NotificationsController', ['only' => ['index']]);
