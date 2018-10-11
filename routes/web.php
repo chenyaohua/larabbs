@@ -17,6 +17,8 @@ Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail'
 Route::get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
 Route::post('password/reset', 'Auth\ResetPasswordController@reset');
 
+// 下载二维码
+Route::post('users/{user}/qrcode', 'UsersController@downloadQrcode')->name('users.qrcode');
 Route::resource('users', 'UsersController', ['only' => ['show', 'update', 'edit']]);
 Route::resource('topics', 'TopicsController', ['only' => ['index', 'create', 'store', 'update', 'edit', 'destroy']]);
 
@@ -39,6 +41,7 @@ Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 // package chumper/zipper
 Route::get('zip', 'ZipController@index')->name('zip.index');
 Route::post('zip/download', 'ZipController@download')->name('zip.download');
-Route::post('zip/upload', 'ZipController@upload')->name('zip.upload');
+Route::post('zip/upload', 'ZipController@users.show')->name('zip.upload');
+
 
 
