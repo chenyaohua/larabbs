@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Exports\UsersExport;
 use App\Models\Topic;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -14,6 +15,8 @@ use App\Models\Link;
 use PDF;
 use SnappyImage;
 use Excel;
+use App\Exports\TopicssExport;
+use App\Imports\TopicssImport;
 
 class TopicsController extends Controller
 {
@@ -123,7 +126,17 @@ class TopicsController extends Controller
         return view('topics.excel');
     }
 
-    public function export(Request $request,Topic $topic,User $user){
+    public function export(Request $request,TopicssExport $topicssExport){
+        return $topicssExport->withinDays($request->days);
+    }
+
+    public function import(Request $request,TopicssImport $topicssImport){
+        Excel::import($topicssImport, 'topics.xls');
+
+        return redirect()->route('topics.excel')->with('success', '导入成功！');
+    }
+
+/*    public function export(Request $request,Topic $topic,User $user){
         $days = $request->days;
 
         // 查询 days 天之内的数据
@@ -181,9 +194,9 @@ class TopicsController extends Controller
             });
 
         })->export('xls');
-    }
+    }*/
 
-    public function import(Request $request){
+/*    public function import(Request $request){
         Excel::load($request->excel, function($reader) {
             // 获取第一个 数据表
             $sheet = $reader->first();
@@ -201,5 +214,5 @@ class TopicsController extends Controller
         });
 
         return redirect()->route('topics.excel')->with('success', '导入成功！');
-    }
+    }*/
 }
