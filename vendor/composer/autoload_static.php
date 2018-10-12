@@ -274,6 +274,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         ),
         'B' => 
         array (
+            'BeyondCode\\QueryDetector\\' => 25,
             'BeyondCode\\ErdGenerator\\' => 24,
             'Barryvdh\\Snappy\\' => 16,
             'Barryvdh\\Debugbar\\' => 18,
@@ -749,6 +750,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             0 => __DIR__ . '/..' . '/cakephp/chronos/src',
         ),
+        'BeyondCode\\QueryDetector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src',
+        ),
         'BeyondCode\\ErdGenerator\\' => 
         array (
             0 => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src',
@@ -1084,6 +1089,18 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'BeyondCode\\ErdGenerator\\ModelFinder' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/ModelFinder.php',
         'BeyondCode\\ErdGenerator\\ModelRelation' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/ModelRelation.php',
         'BeyondCode\\ErdGenerator\\RelationFinder' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/RelationFinder.php',
+        'BeyondCode\\QueryDetector\\Events\\QueryDetected' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/Events/QueryDetected.php',
+        'BeyondCode\\QueryDetector\\LumenQueryDetectorServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/LumenQueryDetectorServiceProvider.php',
+        'BeyondCode\\QueryDetector\\Outputs\\Alert' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/Outputs/Alert.php',
+        'BeyondCode\\QueryDetector\\Outputs\\Clockwork' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/Outputs/Clockwork.php',
+        'BeyondCode\\QueryDetector\\Outputs\\Console' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/Outputs/Console.php',
+        'BeyondCode\\QueryDetector\\Outputs\\Debugbar' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/Outputs/Debugbar.php',
+        'BeyondCode\\QueryDetector\\Outputs\\Json' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/Outputs/Json.php',
+        'BeyondCode\\QueryDetector\\Outputs\\Log' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/Outputs/Log.php',
+        'BeyondCode\\QueryDetector\\Outputs\\Output' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/Outputs/Output.php',
+        'BeyondCode\\QueryDetector\\QueryDetector' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/QueryDetector.php',
+        'BeyondCode\\QueryDetector\\QueryDetectorMiddleware' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/QueryDetectorMiddleware.php',
+        'BeyondCode\\QueryDetector\\QueryDetectorServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/QueryDetectorServiceProvider.php',
         'Cake\\Chronos\\Chronos' => __DIR__ . '/..' . '/cakephp/chronos/src/Chronos.php',
         'Cake\\Chronos\\ChronosInterface' => __DIR__ . '/..' . '/cakephp/chronos/src/ChronosInterface.php',
         'Cake\\Chronos\\ChronosInterval' => __DIR__ . '/..' . '/cakephp/chronos/src/ChronosInterval.php',
