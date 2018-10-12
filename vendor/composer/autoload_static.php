@@ -283,6 +283,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'A' => 
         array (
             'Asm89\\Stack\\' => 12,
+            'Askedio\\SoftCascade\\' => 20,
             'App\\' => 4,
         ),
     );
@@ -774,6 +775,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             0 => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack',
         ),
+        'Askedio\\SoftCascade\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -991,6 +996,21 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'App\\Transformers\\TopicTransformer' => __DIR__ . '/../..' . '/app/Transformers/TopicTransformer.php',
         'App\\Transformers\\UserTransformer' => __DIR__ . '/../..' . '/app/Transformers/UserTransformer.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
+        'Askedio\\SoftCascade\\Contracts\\SoftCascadeable' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Contracts/SoftCascadeable.php',
+        'Askedio\\SoftCascade\\EloquentSoftCascade' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/EloquentSoftCascade.php',
+        'Askedio\\SoftCascade\\Exceptions\\SoftCascadeLogicException' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Exceptions/SoftCascadeLogicException.php',
+        'Askedio\\SoftCascade\\Exceptions\\SoftCascadeNonExistentRelationActionException' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Exceptions/SoftCascadeNonExistentRelationActionException.php',
+        'Askedio\\SoftCascade\\Exceptions\\SoftCascadeRestrictedException' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Exceptions/SoftCascadeRestrictedException.php',
+        'Askedio\\SoftCascade\\Listeners\\CascadeDeleteListener' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Listeners/CascadeDeleteListener.php',
+        'Askedio\\SoftCascade\\Listeners\\CascadeQueryListener' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Listeners/CascadeQueryListener.php',
+        'Askedio\\SoftCascade\\Listeners\\CascadeRestoreListener' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Listeners/CascadeRestoreListener.php',
+        'Askedio\\SoftCascade\\Providers\\EventServiceProvider' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Providers/EventServiceProvider.php',
+        'Askedio\\SoftCascade\\Providers\\GenericServiceProvider' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Providers/GenericServiceProvider.php',
+        'Askedio\\SoftCascade\\Providers\\LumenEventServiceProvider' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Providers/LumenEventServiceProvider.php',
+        'Askedio\\SoftCascade\\Providers\\LumenServiceProvider' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Providers/LumenServiceProvider.php',
+        'Askedio\\SoftCascade\\QueryBuilderSoftCascade' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/QueryBuilderSoftCascade.php',
+        'Askedio\\SoftCascade\\SoftCascade' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/SoftCascade.php',
+        'Askedio\\SoftCascade\\Traits\\SoftCascadeTrait' => __DIR__ . '/..' . '/askedio/laravel-soft-cascade/src/Traits/SoftCascadeTrait.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/CorsService.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',

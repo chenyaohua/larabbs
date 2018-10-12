@@ -3,10 +3,14 @@
 namespace App\Models;
 
 use EloquentFilter\Filterable;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Askedio\SoftCascade\Traits\SoftCascadeTrait;
 
 class Topic extends Model
 {
-    use Filterable;
+    use Filterable, SoftDeletes, SoftCascadeTrait;
+
+    protected $softCascade = ['replies'];
 
     protected $fillable = ['title', 'body', 'category_id', 'excerpt', 'slug'];
 
@@ -43,9 +47,9 @@ class Topic extends Model
                 $query = $this->recentReplied();
                 break;
         }
-        return $query;
+
         // 预加载防止 N+1 问题
-//        return $query->with('user', 'category');
+        return $query->with('user', 'category');
     }
 
     public function scopeRecentReplied($query)
