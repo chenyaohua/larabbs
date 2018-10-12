@@ -121,6 +121,7 @@ return array(
     'Clockwork\\' => array($vendorDir . '/itsgoingd/clockwork/Clockwork'),
     'Chumper\\Zipper\\' => array($vendorDir . '/chumper/zipper/src/Chumper/Zipper'),
     'Cake\\Chronos\\' => array($vendorDir . '/cakephp/chronos/src'),
+    'BeyondCode\\ErdGenerator\\' => array($vendorDir . '/beyondcode/laravel-er-diagram-generator/src'),
     'Barryvdh\\Snappy\\' => array($vendorDir . '/barryvdh/laravel-snappy/src'),
     'Barryvdh\\Debugbar\\' => array($vendorDir . '/barryvdh/laravel-debugbar/src'),
     'Barryvdh\\Cors\\' => array($vendorDir . '/barryvdh/laravel-cors/src'),

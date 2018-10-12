@@ -274,6 +274,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         ),
         'B' => 
         array (
+            'BeyondCode\\ErdGenerator\\' => 24,
             'Barryvdh\\Snappy\\' => 16,
             'Barryvdh\\Debugbar\\' => 18,
             'Barryvdh\\Cors\\' => 14,
@@ -748,6 +749,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             0 => __DIR__ . '/..' . '/cakephp/chronos/src',
         ),
+        'BeyondCode\\ErdGenerator\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src',
+        ),
         'Barryvdh\\Snappy\\' => 
         array (
             0 => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src',
@@ -775,6 +780,14 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
     );
 
     public static $prefixesPsr0 = array (
+        'p' => 
+        array (
+            'phpDocumentor' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpdocumentor/graphviz/src',
+                1 => __DIR__ . '/..' . '/phpdocumentor/graphviz/tests/unit',
+            ),
+        ),
         'S' => 
         array (
             'SimpleSoftwareIO\\QrCode\\' => 
@@ -1063,6 +1076,14 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Barryvdh\\Snappy\\PdfFaker' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/PdfFaker.php',
         'Barryvdh\\Snappy\\PdfWrapper' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/PdfWrapper.php',
         'Barryvdh\\Snappy\\ServiceProvider' => __DIR__ . '/..' . '/barryvdh/laravel-snappy/src/ServiceProvider.php',
+        'BeyondCode\\ErdGenerator\\Edge' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/Edge.php',
+        'BeyondCode\\ErdGenerator\\ErdGeneratorServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/ErdGeneratorServiceProvider.php',
+        'BeyondCode\\ErdGenerator\\GenerateDiagramCommand' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/GenerateDiagramCommand.php',
+        'BeyondCode\\ErdGenerator\\GraphBuilder' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/GraphBuilder.php',
+        'BeyondCode\\ErdGenerator\\Model' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/Model.php',
+        'BeyondCode\\ErdGenerator\\ModelFinder' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/ModelFinder.php',
+        'BeyondCode\\ErdGenerator\\ModelRelation' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/ModelRelation.php',
+        'BeyondCode\\ErdGenerator\\RelationFinder' => __DIR__ . '/..' . '/beyondcode/laravel-er-diagram-generator/src/RelationFinder.php',
         'Cake\\Chronos\\Chronos' => __DIR__ . '/..' . '/cakephp/chronos/src/Chronos.php',
         'Cake\\Chronos\\ChronosInterface' => __DIR__ . '/..' . '/cakephp/chronos/src/ChronosInterface.php',
         'Cake\\Chronos\\ChronosInterval' => __DIR__ . '/..' . '/cakephp/chronos/src/ChronosInterval.php',
@@ -7051,6 +7072,11 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'libphonenumber\\prefixmapper\\PhonePrefixMap' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/prefixmapper/PhonePrefixMap.php',
         'libphonenumber\\prefixmapper\\PrefixFileReader' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/prefixmapper/PrefixFileReader.php',
         'libphonenumber\\prefixmapper\\PrefixTimeZonesMap' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/prefixmapper/PrefixTimeZonesMap.php',
+        'phpDocumentor\\GraphViz\\Attribute' => __DIR__ . '/..' . '/phpdocumentor/graphviz/src/phpDocumentor/GraphViz/Attribute.php',
+        'phpDocumentor\\GraphViz\\Edge' => __DIR__ . '/..' . '/phpdocumentor/graphviz/src/phpDocumentor/GraphViz/Edge.php',
+        'phpDocumentor\\GraphViz\\Exception' => __DIR__ . '/..' . '/phpdocumentor/graphviz/src/phpDocumentor/GraphViz/Exception.php',
+        'phpDocumentor\\GraphViz\\Graph' => __DIR__ . '/..' . '/phpdocumentor/graphviz/src/phpDocumentor/GraphViz/Graph.php',
+        'phpDocumentor\\GraphViz\\Node' => __DIR__ . '/..' . '/phpdocumentor/graphviz/src/phpDocumentor/GraphViz/Node.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',
