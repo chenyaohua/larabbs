@@ -68,6 +68,8 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'f0e7e63bbb278a92db02393536748c5f' => __DIR__ . '/..' . '/overtrue/wechat/src/Kernel/Support/Helpers.php',
         '6747f579ad6817f318cc3a7e7a0abb93' => __DIR__ . '/..' . '/overtrue/wechat/src/Kernel/Helpers.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        '1e298922c3e2134d42dcdb03e6d5f55a' => __DIR__ . '/..' . '/torann/geoip/src/helpers.php',
+        'ac4ced6690157c667ba34e00e797e03f' => __DIR__ . '/..' . '/awssat/laravel-visits/src/helpers.php',
         '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
         'f4e9c7747917193061b46ee142399603' => __DIR__ . '/..' . '/dingo/api/src/helpers.php',
         'c9b7496aa2e287ba00ff44d2d2a861b1' => __DIR__ . '/..' . '/hieu-le/active/src/helpers.php',
@@ -77,7 +79,6 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         '017b24472353920ed42bb364f7653c43' => __DIR__ . '/..' . '/propaganistas/laravel-phone/src/helpers.php',
         '0c3c22e27afa83be19b4c938f4c6e9ea' => __DIR__ . '/..' . '/spatie/laravel-backup/src/Helpers/functions.php',
         '377b22b161c09ed6e5152de788ca020a' => __DIR__ . '/..' . '/spatie/laravel-permission/src/helpers.php',
-        '1e298922c3e2134d42dcdb03e6d5f55a' => __DIR__ . '/..' . '/torann/geoip/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -92,6 +93,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'h' => 
         array (
             'h4cc\\WKHTMLToPDF\\' => 17,
+        ),
+        'a' => 
+        array (
+            'awssat\\Visits\\' => 14,
         ),
         'X' => 
         array (
@@ -136,6 +141,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'Summerblue\\Generator\\' => 21,
             'Spatie\\TemporaryDirectory\\' => 26,
+            'Spatie\\Referer\\' => 15,
             'Spatie\\Permission\\' => 18,
             'Spatie\\DbDumper\\' => 16,
             'Spatie\\Backup\\' => 14,
@@ -208,6 +214,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         ),
         'J' => 
         array (
+            'Jaybizzle\\CrawlerDetect\\' => 24,
             'JPush\\' => 6,
         ),
         'I' => 
@@ -292,6 +299,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'h4cc\\WKHTMLToPDF\\' => 
         array (
             0 => __DIR__ . '/..' . '/h4cc/wkhtmltopdf-amd64',
+        ),
+        'awssat\\Visits\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/awssat/laravel-visits/src',
         ),
         'XdgBaseDir\\' => 
         array (
@@ -408,6 +419,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Spatie\\TemporaryDirectory\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/temporary-directory/src',
+        ),
+        'Spatie\\Referer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-referer/src',
         ),
         'Spatie\\Permission\\' => 
         array (
@@ -588,6 +603,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Kalnoy\\Nestedset\\' => 
         array (
             0 => __DIR__ . '/..' . '/kalnoy/nestedset/src',
+        ),
+        'Jaybizzle\\CrawlerDetect\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src',
         ),
         'JPush\\' => 
         array (
@@ -887,6 +906,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'App\\Http\\Controllers\\NotificationsController' => __DIR__ . '/../..' . '/app/Http/Controllers/NotificationsController.php',
         'App\\Http\\Controllers\\PagesController' => __DIR__ . '/../..' . '/app/Http/Controllers/PagesController.php',
         'App\\Http\\Controllers\\RepliesController' => __DIR__ . '/../..' . '/app/Http/Controllers/RepliesController.php',
+        'App\\Http\\Controllers\\SitemapController' => __DIR__ . '/../..' . '/app/Http/Controllers/SitemapController.php',
         'App\\Http\\Controllers\\TopicsController' => __DIR__ . '/../..' . '/app/Http/Controllers/TopicsController.php',
         'App\\Http\\Controllers\\UsersController' => __DIR__ . '/../..' . '/app/Http/Controllers/UsersController.php',
         'App\\Http\\Controllers\\ZipController' => __DIR__ . '/../..' . '/app/Http/Controllers/ZipController.php',
@@ -3820,6 +3840,11 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'JakubOnderka\\PhpConsoleColor\\ConsoleColor' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/ConsoleColor.php',
         'JakubOnderka\\PhpConsoleColor\\InvalidStyleException' => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src/JakubOnderka/PhpConsoleColor/InvalidStyleException.php',
         'JakubOnderka\\PhpConsoleHighlighter\\Highlighter' => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src/JakubOnderka/PhpConsoleHighlighter/Highlighter.php',
+        'Jaybizzle\\CrawlerDetect\\CrawlerDetect' => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src/CrawlerDetect.php',
+        'Jaybizzle\\CrawlerDetect\\Fixtures\\AbstractProvider' => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src/Fixtures/AbstractProvider.php',
+        'Jaybizzle\\CrawlerDetect\\Fixtures\\Crawlers' => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src/Fixtures/Crawlers.php',
+        'Jaybizzle\\CrawlerDetect\\Fixtures\\Exclusions' => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src/Fixtures/Exclusions.php',
+        'Jaybizzle\\CrawlerDetect\\Fixtures\\Headers' => __DIR__ . '/..' . '/jaybizzle/crawler-detect/src/Fixtures/Headers.php',
         'JsonSerializable' => __DIR__ . '/..' . '/nesbot/carbon/src/JsonSerializable.php',
         'Kalnoy\\Nestedset\\AncestorsRelation' => __DIR__ . '/..' . '/kalnoy/nestedset/src/AncestorsRelation.php',
         'Kalnoy\\Nestedset\\BaseRelation' => __DIR__ . '/..' . '/kalnoy/nestedset/src/BaseRelation.php',
@@ -6181,6 +6206,14 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Spatie\\Permission\\Traits\\HasPermissions' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Traits/HasPermissions.php',
         'Spatie\\Permission\\Traits\\HasRoles' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Traits/HasRoles.php',
         'Spatie\\Permission\\Traits\\RefreshesPermissionCache' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Traits/RefreshesPermissionCache.php',
+        'Spatie\\Referer\\CaptureReferer' => __DIR__ . '/..' . '/spatie/laravel-referer/src/CaptureReferer.php',
+        'Spatie\\Referer\\Exceptions\\InvalidConfiguration' => __DIR__ . '/..' . '/spatie/laravel-referer/src/Exceptions/InvalidConfiguration.php',
+        'Spatie\\Referer\\Helpers\\Url' => __DIR__ . '/..' . '/spatie/laravel-referer/src/Helpers/Url.php',
+        'Spatie\\Referer\\Referer' => __DIR__ . '/..' . '/spatie/laravel-referer/src/Referer.php',
+        'Spatie\\Referer\\RefererServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-referer/src/RefererServiceProvider.php',
+        'Spatie\\Referer\\Source' => __DIR__ . '/..' . '/spatie/laravel-referer/src/Source.php',
+        'Spatie\\Referer\\Sources\\RequestHeader' => __DIR__ . '/..' . '/spatie/laravel-referer/src/Sources/RequestHeader.php',
+        'Spatie\\Referer\\Sources\\UtmSource' => __DIR__ . '/..' . '/spatie/laravel-referer/src/Sources/UtmSource.php',
         'Spatie\\TemporaryDirectory\\TemporaryDirectory' => __DIR__ . '/..' . '/spatie/temporary-directory/src/TemporaryDirectory.php',
         'Summerblue\\Generator\\Commands\\ScaffoldMakeCommand' => __DIR__ . '/..' . '/summerblue/generator/src/Commands/ScaffoldMakeCommand.php',
         'Summerblue\\Generator\\GeneratorException' => __DIR__ . '/..' . '/summerblue/generator/src/GeneratorException.php',
@@ -6968,6 +7001,14 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
         'XdgBaseDir\\Xdg' => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src/Xdg.php',
+        'awssat\\Visits\\Keys' => __DIR__ . '/..' . '/awssat/laravel-visits/src/Keys.php',
+        'awssat\\Visits\\Reset' => __DIR__ . '/..' . '/awssat/laravel-visits/src/Reset.php',
+        'awssat\\Visits\\Traits\\Lists' => __DIR__ . '/..' . '/awssat/laravel-visits/src/Traits/Lists.php',
+        'awssat\\Visits\\Traits\\Periods' => __DIR__ . '/..' . '/awssat/laravel-visits/src/Traits/Periods.php',
+        'awssat\\Visits\\Traits\\Record' => __DIR__ . '/..' . '/awssat/laravel-visits/src/Traits/Record.php',
+        'awssat\\Visits\\Traits\\Setters' => __DIR__ . '/..' . '/awssat/laravel-visits/src/Traits/Setters.php',
+        'awssat\\Visits\\Visits' => __DIR__ . '/..' . '/awssat/laravel-visits/src/Visits.php',
+        'awssat\\Visits\\VisitsServiceProvider' => __DIR__ . '/..' . '/awssat/laravel-visits/src/VisitsServiceProvider.php',
         'h4cc\\WKHTMLToPDF\\WKHTMLToPDF' => __DIR__ . '/..' . '/h4cc/wkhtmltopdf-amd64/WKHTMLToPDF.php',
         'libphonenumber\\AlternateFormatsCountryCodeSet' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/AlternateFormatsCountryCodeSet.php',
         'libphonenumber\\AsYouTypeFormatter' => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src/AsYouTypeFormatter.php',
