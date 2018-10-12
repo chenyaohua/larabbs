@@ -266,6 +266,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'C' => 
         array (
             'Cron\\' => 5,
+            'Composer\\Semver\\' => 16,
             'Composer\\CaBundle\\' => 18,
             'Complex\\' => 8,
             'Clockwork\\' => 10,
@@ -274,6 +275,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         ),
         'B' => 
         array (
+            'BeyondCode\\SelfDiagnosis\\' => 25,
             'BeyondCode\\QueryDetector\\' => 25,
             'BeyondCode\\ErdGenerator\\' => 24,
             'Barryvdh\\Snappy\\' => 16,
@@ -731,6 +733,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         array (
             0 => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron',
         ),
+        'Composer\\Semver\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/semver/src',
+        ),
         'Composer\\CaBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/ca-bundle/src',
@@ -750,6 +756,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Cake\\Chronos\\' => 
         array (
             0 => __DIR__ . '/..' . '/cakephp/chronos/src',
+        ),
+        'BeyondCode\\SelfDiagnosis\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src',
         ),
         'BeyondCode\\QueryDetector\\' => 
         array (
@@ -807,10 +817,6 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         ),
         'R' => 
         array (
-            'Roumen\\Sitemap' => 
-            array (
-                0 => __DIR__ . '/..' . '/roumen/sitemap/src',
-            ),
             'Rap2hpoutre\\LaravelLogViewer\\' => 
             array (
                 0 => __DIR__ . '/..' . '/rap2hpoutre/laravel-log-viewer/src',
@@ -847,6 +853,13 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
             'Milon\\Barcode' => 
             array (
                 0 => __DIR__ . '/..' . '/milon/barcode/src',
+            ),
+        ),
+        'L' => 
+        array (
+            'Laravelium\\Sitemap' => 
+            array (
+                0 => __DIR__ . '/..' . '/laravelium/sitemap/src',
             ),
         ),
         'J' => 
@@ -1121,6 +1134,36 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'BeyondCode\\QueryDetector\\QueryDetector' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/QueryDetector.php',
         'BeyondCode\\QueryDetector\\QueryDetectorMiddleware' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/QueryDetectorMiddleware.php',
         'BeyondCode\\QueryDetector\\QueryDetectorServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-query-detector/src/QueryDetectorServiceProvider.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\AppKeyIsSet' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/AppKeyIsSet.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\Check' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/Check.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\ComposerWithDevDependenciesIsUpToDate' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/ComposerWithDevDependenciesIsUpToDate.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\ComposerWithoutDevDependenciesIsUpToDate' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/ComposerWithoutDevDependenciesIsUpToDate.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\ConfigurationIsCached' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/ConfigurationIsCached.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\ConfigurationIsNotCached' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/ConfigurationIsNotCached.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\CorrectPhpVersionIsInstalled' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/CorrectPhpVersionIsInstalled.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\DatabaseCanBeAccessed' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/DatabaseCanBeAccessed.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\DebugModeIsNotEnabled' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/DebugModeIsNotEnabled.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\DirectoriesHaveCorrectPermissions' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/DirectoriesHaveCorrectPermissions.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\EnvFileExists' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/EnvFileExists.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\ExampleEnvironmentVariablesAreSet' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/ExampleEnvironmentVariablesAreSet.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\ExampleEnvironmentVariablesAreUpToDate' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/ExampleEnvironmentVariablesAreUpToDate.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\LocalesAreInstalled' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/LocalesAreInstalled.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\MaintenanceModeNotEnabled' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/MaintenanceModeNotEnabled.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\MigrationsAreUpToDate' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/MigrationsAreUpToDate.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\PhpExtensionsAreDisabled' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/PhpExtensionsAreDisabled.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\PhpExtensionsAreInstalled' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/PhpExtensionsAreInstalled.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\RedisCanBeAccessed' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/RedisCanBeAccessed.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\RoutesAreCached' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/RoutesAreCached.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\RoutesAreNotCached' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/RoutesAreNotCached.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\ServersArePingable' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/ServersArePingable.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\StorageDirectoryIsLinked' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/StorageDirectoryIsLinked.php',
+        'BeyondCode\\SelfDiagnosis\\Checks\\SupervisorProgramsAreRunning' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Checks/SupervisorProgramsAreRunning.php',
+        'BeyondCode\\SelfDiagnosis\\Composer' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Composer.php',
+        'BeyondCode\\SelfDiagnosis\\Exceptions\\InvalidConfigurationException' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Exceptions/InvalidConfigurationException.php',
+        'BeyondCode\\SelfDiagnosis\\SelfDiagnosisCommand' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/SelfDiagnosisCommand.php',
+        'BeyondCode\\SelfDiagnosis\\SelfDiagnosisServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/SelfDiagnosisServiceProvider.php',
+        'BeyondCode\\SelfDiagnosis\\Server' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/Server.php',
+        'BeyondCode\\SelfDiagnosis\\SystemFunctions' => __DIR__ . '/..' . '/beyondcode/laravel-self-diagnosis/src/SystemFunctions.php',
         'Cake\\Chronos\\Chronos' => __DIR__ . '/..' . '/cakephp/chronos/src/Chronos.php',
         'Cake\\Chronos\\ChronosInterface' => __DIR__ . '/..' . '/cakephp/chronos/src/ChronosInterface.php',
         'Cake\\Chronos\\ChronosInterval' => __DIR__ . '/..' . '/cakephp/chronos/src/ChronosInterval.php',
@@ -1215,6 +1258,14 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Complex\\Complex' => __DIR__ . '/..' . '/markbaker/complex/classes/src/Complex.php',
         'Complex\\Exception' => __DIR__ . '/..' . '/markbaker/complex/classes/src/Exception.php',
         'Composer\\CaBundle\\CaBundle' => __DIR__ . '/..' . '/composer/ca-bundle/src/CaBundle.php',
+        'Composer\\Semver\\Comparator' => __DIR__ . '/..' . '/composer/semver/src/Comparator.php',
+        'Composer\\Semver\\Constraint\\AbstractConstraint' => __DIR__ . '/..' . '/composer/semver/src/Constraint/AbstractConstraint.php',
+        'Composer\\Semver\\Constraint\\Constraint' => __DIR__ . '/..' . '/composer/semver/src/Constraint/Constraint.php',
+        'Composer\\Semver\\Constraint\\ConstraintInterface' => __DIR__ . '/..' . '/composer/semver/src/Constraint/ConstraintInterface.php',
+        'Composer\\Semver\\Constraint\\EmptyConstraint' => __DIR__ . '/..' . '/composer/semver/src/Constraint/EmptyConstraint.php',
+        'Composer\\Semver\\Constraint\\MultiConstraint' => __DIR__ . '/..' . '/composer/semver/src/Constraint/MultiConstraint.php',
+        'Composer\\Semver\\Semver' => __DIR__ . '/..' . '/composer/semver/src/Semver.php',
+        'Composer\\Semver\\VersionParser' => __DIR__ . '/..' . '/composer/semver/src/VersionParser.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
         'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/DayOfMonthField.php',
@@ -3883,6 +3934,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Intervention\\Image\\Point' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/Point.php',
         'Intervention\\Image\\Response' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/Response.php',
         'Intervention\\Image\\Size' => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image/Size.php',
+        'JJG\\Ping' => __DIR__ . '/..' . '/geerlingguy/ping/JJG/Ping.php',
         'JPush\\AdminClient' => __DIR__ . '/..' . '/jpush/jpush/src/JPush/AdminClient.php',
         'JPush\\Client' => __DIR__ . '/..' . '/jpush/jpush/src/JPush/Client.php',
         'JPush\\Config' => __DIR__ . '/..' . '/jpush/jpush/src/JPush/Config.php',
@@ -4058,6 +4110,9 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Laravel\\Tinker\\Console\\TinkerCommand' => __DIR__ . '/..' . '/laravel/tinker/src/Console/TinkerCommand.php',
         'Laravel\\Tinker\\TinkerCaster' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerCaster.php',
         'Laravel\\Tinker\\TinkerServiceProvider' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerServiceProvider.php',
+        'Laravelium\\Sitemap\\Model' => __DIR__ . '/..' . '/laravelium/sitemap/src/Laravelium/Sitemap/Model.php',
+        'Laravelium\\Sitemap\\Sitemap' => __DIR__ . '/..' . '/laravelium/sitemap/src/Laravelium/Sitemap/Sitemap.php',
+        'Laravelium\\Sitemap\\SitemapServiceProvider' => __DIR__ . '/..' . '/laravelium/sitemap/src/Laravelium/Sitemap/SitemapServiceProvider.php',
         'Lcobucci\\JWT\\Builder' => __DIR__ . '/..' . '/lcobucci/jwt/src/Builder.php',
         'Lcobucci\\JWT\\Claim' => __DIR__ . '/..' . '/lcobucci/jwt/src/Claim.php',
         'Lcobucci\\JWT\\Claim\\Basic' => __DIR__ . '/..' . '/lcobucci/jwt/src/Claim/Basic.php',
@@ -6057,9 +6112,6 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Rap2hpoutre\\LaravelLogViewer\\LogViewerController' => __DIR__ . '/..' . '/rap2hpoutre/laravel-log-viewer/src/controllers/LogViewerController.php',
         'Rap2hpoutre\\LaravelLogViewer\\Pattern' => __DIR__ . '/..' . '/rap2hpoutre/laravel-log-viewer/src/Rap2hpoutre/LaravelLogViewer/Pattern.php',
         'ReplysTableSeeder' => __DIR__ . '/../..' . '/database/seeds/ReplysTableSeeder.php',
-        'Roumen\\Sitemap\\Model' => __DIR__ . '/..' . '/roumen/sitemap/src/Roumen/Sitemap/Model.php',
-        'Roumen\\Sitemap\\Sitemap' => __DIR__ . '/..' . '/roumen/sitemap/src/Roumen/Sitemap/Sitemap.php',
-        'Roumen\\Sitemap\\SitemapServiceProvider' => __DIR__ . '/..' . '/roumen/sitemap/src/Roumen/Sitemap/SitemapServiceProvider.php',
         'SebastianBergmann\\CodeCoverage\\CodeCoverage' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/CodeCoverage.php',
         'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',
         'SebastianBergmann\\CodeCoverage\\Driver\\Driver' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Driver/Driver.php',
