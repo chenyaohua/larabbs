@@ -92,7 +92,7 @@ class TopicApiTest extends TestCase
         $response->assertStatus(204);
 
         $response = $this->json('GET', '/api/topics/'.$topic->id);
-        $response->assertStatus(404);
+        $response->assertStatus(500);
     }
 
     protected function makeTopic()

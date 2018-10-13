@@ -66,6 +66,7 @@ return array(
     'Overtrue\\LaravelFilesystem\\Qiniu\\' => array($vendorDir . '/overtrue/laravel-filesystem-qiniu/src'),
     'Overtrue\\Flysystem\\Qiniu\\' => array($vendorDir . '/overtrue/flysystem-qiniu/src'),
     'Overtrue\\EasySms\\' => array($vendorDir . '/overtrue/easy-sms/src'),
+    'NunoMaduro\\Collision\\' => array($vendorDir . '/nunomaduro/collision/src'),
     'Namshi\\JOSE\\' => array($vendorDir . '/namshi/jose/src/Namshi/JOSE'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'Mews\\Purifier\\' => array($vendorDir . '/mews/purifier/src'),
