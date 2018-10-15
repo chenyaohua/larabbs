@@ -60,6 +60,7 @@ class Kernel extends HttpKernel
 
             //访问来源
             \Spatie\Referer\CaptureReferer::class,
+
         ],
 
         // API 中间件组，应用于 routes/api.php 路由文件
@@ -98,5 +99,8 @@ class Kernel extends HttpKernel
 
         // CORS
         'cors' => \Barryvdh\Cors\HandleCors::class,
+
+        // 需要缓存的响应
+        'cacheResponse' => \Spatie\ResponseCache\Middlewares\CacheResponse::class,
     ];
 }

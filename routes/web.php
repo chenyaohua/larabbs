@@ -28,9 +28,9 @@ Route::resource('categories', 'CategoriesController', ['only' => ['show']]);
 Route::post('upload_image', 'TopicsController@uploadImage')->name('topics.upload_image');
 
 // 显示 pdf
-Route::get('pdf/topics/{topic}', 'TopicsController@pdf')->name('topics.show.pdf');
+Route::get('topics/{topic}/pdf', 'TopicsController@pdf')->name('topics.show.pdf')->middleware('cacheResponse:60');
 // 显示 Image
-Route::get('image/topics/{topic}', 'TopicsController@image')->name('topics.show.image');
+Route::get('topics/{topic}/image', 'TopicsController@image')->name('topics.show.image');
 
 // 导出 excel
 Route::get('topics/excel', 'TopicsController@excel')->name('topics.excel');

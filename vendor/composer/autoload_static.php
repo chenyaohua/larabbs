@@ -141,6 +141,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'Summerblue\\Generator\\' => 21,
             'Spatie\\TemporaryDirectory\\' => 26,
+            'Spatie\\ResponseCache\\' => 21,
             'Spatie\\Referer\\' => 15,
             'Spatie\\Permission\\' => 18,
             'Spatie\\DbDumper\\' => 16,
@@ -425,6 +426,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Spatie\\TemporaryDirectory\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/temporary-directory/src',
+        ),
+        'Spatie\\ResponseCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-responsecache/src',
         ),
         'Spatie\\Referer\\' => 
         array (
@@ -6346,6 +6351,27 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Spatie\\Referer\\Source' => __DIR__ . '/..' . '/spatie/laravel-referer/src/Source.php',
         'Spatie\\Referer\\Sources\\RequestHeader' => __DIR__ . '/..' . '/spatie/laravel-referer/src/Sources/RequestHeader.php',
         'Spatie\\Referer\\Sources\\UtmSource' => __DIR__ . '/..' . '/spatie/laravel-referer/src/Sources/UtmSource.php',
+        'Spatie\\ResponseCache\\CacheProfiles\\BaseCacheProfile' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/CacheProfiles/BaseCacheProfile.php',
+        'Spatie\\ResponseCache\\CacheProfiles\\CacheAllSuccessfulGetRequests' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/CacheProfiles/CacheAllSuccessfulGetRequests.php',
+        'Spatie\\ResponseCache\\CacheProfiles\\CacheProfile' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/CacheProfiles/CacheProfile.php',
+        'Spatie\\ResponseCache\\Commands\\Clear' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Commands/Clear.php',
+        'Spatie\\ResponseCache\\Commands\\Flush' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Commands/Flush.php',
+        'Spatie\\ResponseCache\\Events\\CacheMissed' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Events/CacheMissed.php',
+        'Spatie\\ResponseCache\\Events\\ClearedResponseCache' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Events/ClearedResponseCache.php',
+        'Spatie\\ResponseCache\\Events\\ClearingResponseCache' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Events/ClearingResponseCache.php',
+        'Spatie\\ResponseCache\\Events\\FlushedResponseCache' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Events/FlushedResponseCache.php',
+        'Spatie\\ResponseCache\\Events\\FlushingResponseCache' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Events/FlushingResponseCache.php',
+        'Spatie\\ResponseCache\\Events\\ResponseCacheHit' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Events/ResponseCacheHit.php',
+        'Spatie\\ResponseCache\\Exceptions\\CouldNotUnserialize' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Exceptions/CouldNotUnserialize.php',
+        'Spatie\\ResponseCache\\Facades\\ResponseCache' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Facades/ResponseCache.php',
+        'Spatie\\ResponseCache\\Middlewares\\CacheResponse' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Middlewares/CacheResponse.php',
+        'Spatie\\ResponseCache\\Middlewares\\DoNotCacheResponse' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/Middlewares/DoNotCacheResponse.php',
+        'Spatie\\ResponseCache\\RequestHasher' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/RequestHasher.php',
+        'Spatie\\ResponseCache\\ResponseCache' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/ResponseCache.php',
+        'Spatie\\ResponseCache\\ResponseCacheFacade' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/ResponseCacheFacade.php',
+        'Spatie\\ResponseCache\\ResponseCacheRepository' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/ResponseCacheRepository.php',
+        'Spatie\\ResponseCache\\ResponseCacheServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/ResponseCacheServiceProvider.php',
+        'Spatie\\ResponseCache\\ResponseSerializer' => __DIR__ . '/..' . '/spatie/laravel-responsecache/src/ResponseSerializer.php',
         'Spatie\\TemporaryDirectory\\TemporaryDirectory' => __DIR__ . '/..' . '/spatie/temporary-directory/src/TemporaryDirectory.php',
         'Summerblue\\Generator\\Commands\\ScaffoldMakeCommand' => __DIR__ . '/..' . '/summerblue/generator/src/Commands/ScaffoldMakeCommand.php',
         'Summerblue\\Generator\\GeneratorException' => __DIR__ . '/..' . '/summerblue/generator/src/GeneratorException.php',
