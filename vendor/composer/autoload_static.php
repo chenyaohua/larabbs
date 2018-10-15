@@ -818,6 +818,13 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
                 1 => __DIR__ . '/..' . '/phpdocumentor/graphviz/tests/unit',
             ),
         ),
+        'V' => 
+        array (
+            'Venturecraft\\Revisionable' => 
+            array (
+                0 => __DIR__ . '/..' . '/venturecraft/revisionable/src',
+            ),
+        ),
         'S' => 
         array (
             'SimpleSoftwareIO\\QrCode\\' => 
@@ -1277,6 +1284,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Composer\\Semver\\Constraint\\MultiConstraint' => __DIR__ . '/..' . '/composer/semver/src/Constraint/MultiConstraint.php',
         'Composer\\Semver\\Semver' => __DIR__ . '/..' . '/composer/semver/src/Semver.php',
         'Composer\\Semver\\VersionParser' => __DIR__ . '/..' . '/composer/semver/src/VersionParser.php',
+        'CreateRevisionsTable' => __DIR__ . '/..' . '/venturecraft/revisionable/src/migrations/2013_04_09_062329_create_revisions_table.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
         'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/DayOfMonthField.php',
@@ -7133,6 +7141,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'VIACreative\\SudoSu\\RouteServiceProvider' => __DIR__ . '/..' . '/viacreative/sudo-su/src/RouteServiceProvider.php',
         'VIACreative\\SudoSu\\ServiceProvider' => __DIR__ . '/..' . '/viacreative/sudo-su/src/ServiceProvider.php',
         'VIACreative\\SudoSu\\SudoSu' => __DIR__ . '/..' . '/viacreative/sudo-su/src/SudoSu.php',
+        'Venturecraft\\Revisionable\\FieldFormatter' => __DIR__ . '/..' . '/venturecraft/revisionable/src/Venturecraft/Revisionable/FieldFormatter.php',
+        'Venturecraft\\Revisionable\\Revision' => __DIR__ . '/..' . '/venturecraft/revisionable/src/Venturecraft/Revisionable/Revision.php',
+        'Venturecraft\\Revisionable\\Revisionable' => __DIR__ . '/..' . '/venturecraft/revisionable/src/Venturecraft/Revisionable/Revisionable.php',
+        'Venturecraft\\Revisionable\\RevisionableTrait' => __DIR__ . '/..' . '/venturecraft/revisionable/src/Venturecraft/Revisionable/RevisionableTrait.php',
         'Vinkla\\Hashids\\Facades\\Hashids' => __DIR__ . '/..' . '/vinkla/hashids/src/Facades/Hashids.php',
         'Vinkla\\Hashids\\HashidsFactory' => __DIR__ . '/..' . '/vinkla/hashids/src/HashidsFactory.php',
         'Vinkla\\Hashids\\HashidsManager' => __DIR__ . '/..' . '/vinkla/hashids/src/HashidsManager.php',

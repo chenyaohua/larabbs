@@ -5,10 +5,22 @@ namespace App\Models;
 use EloquentFilter\Filterable;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Askedio\SoftCascade\Traits\SoftCascadeTrait;
+use Venturecraft\Revisionable\RevisionableTrait;
 
 class Topic extends Model
 {
-    use Filterable, SoftDeletes, SoftCascadeTrait;
+    use Filterable, SoftDeletes, SoftCascadeTrait, RevisionableTrait;
+
+    protected $revisionCreationsEnabled = true;
+    // 限制某个模型的记录数
+    protected $historyLimit = 5;
+    protected $revisionCleanup = true;
+
+    // 设置需要 revision 记录的属性
+    protected $keepRevisionOf = ['title', 'category_id','deleted_at'];
+
+    // 设置不需要 revision 记录的属性
+    protected $dontKeepRevisionOf = [];
 
     protected $softCascade = ['replies'];
 
