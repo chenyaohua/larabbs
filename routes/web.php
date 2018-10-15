@@ -53,3 +53,19 @@ Route::get('sitemap/topics', 'SitemapController@topics')->name('sitemap.topics.i
 Route::get('sitemap/users', 'SitemapController@users')->name('sitemap.users.index');
 
 
+Route::get('app', function() {
+    if (!Agent::isMobile()) {
+        return response('PC 访问');
+    }
+
+    if (Agent::isiOS()) {
+        // 判断是微信
+        if (str_contains(Agent::getUserAgent(), 'MicroMessenger')) {
+            return response('请使用 Safari 打开下载');
+        }
+
+        return response('https://itunes.apple.com/xxx');
+    }
+});
+
+
