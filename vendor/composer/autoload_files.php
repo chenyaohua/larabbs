@@ -69,6 +69,7 @@ return array(
     '801c31d8ed748cfa537fa45402288c95' => $vendorDir . '/psy/psysh/src/functions.php',
     '1e298922c3e2134d42dcdb03e6d5f55a' => $vendorDir . '/torann/geoip/src/helpers.php',
     'ac4ced6690157c667ba34e00e797e03f' => $vendorDir . '/awssat/laravel-visits/src/helpers.php',
+    '45666312c918b0614e5cc1eb34ac4159' => $vendorDir . '/baijunyao/laravel-print/src/helpers.php',
     '4a1f389d6ce373bda9e57857d3b61c84' => $vendorDir . '/barryvdh/laravel-debugbar/src/helpers.php',
     'f4e9c7747917193061b46ee142399603' => $vendorDir . '/dingo/api/src/helpers.php',
     'c9b7496aa2e287ba00ff44d2d2a861b1' => $vendorDir . '/hieu-le/active/src/helpers.php',

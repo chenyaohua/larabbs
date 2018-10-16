@@ -70,6 +70,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         '1e298922c3e2134d42dcdb03e6d5f55a' => __DIR__ . '/..' . '/torann/geoip/src/helpers.php',
         'ac4ced6690157c667ba34e00e797e03f' => __DIR__ . '/..' . '/awssat/laravel-visits/src/helpers.php',
+        '45666312c918b0614e5cc1eb34ac4159' => __DIR__ . '/..' . '/baijunyao/laravel-print/src/helpers.php',
         '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
         'f4e9c7747917193061b46ee142399603' => __DIR__ . '/..' . '/dingo/api/src/helpers.php',
         'c9b7496aa2e287ba00ff44d2d2a861b1' => __DIR__ . '/..' . '/hieu-le/active/src/helpers.php',
@@ -284,6 +285,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
             'Barryvdh\\Snappy\\' => 16,
             'Barryvdh\\Debugbar\\' => 18,
             'Barryvdh\\Cors\\' => 14,
+            'Baijunyao\\LaravelPrint\\' => 23,
         ),
         'A' => 
         array (
@@ -795,6 +797,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Barryvdh\\Cors\\' => 
         array (
             0 => __DIR__ . '/..' . '/barryvdh/laravel-cors/src',
+        ),
+        'Baijunyao\\LaravelPrint\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/baijunyao/laravel-print/src',
         ),
         'Asm89\\Stack\\' => 
         array (

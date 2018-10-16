@@ -8,6 +8,7 @@
         "php": ">=7.0.0",
         "askedio/laravel-soft-cascade": "^5.5",
         "awssat/laravel-visits": "^1.4",
+        "baijunyao/laravel-print": "^3.0",
         "barryvdh/laravel-cors": "^0.11.2",
         "barryvdh/laravel-snappy": "^0.4.3",
         "beyondcode/laravel-self-diagnosis": "^1.0",
