@@ -42,6 +42,7 @@ return array(
     'Spatie\\ResponseCache\\' => array($vendorDir . '/spatie/laravel-responsecache/src'),
     'Spatie\\Referer\\' => array($vendorDir . '/spatie/laravel-referer/src'),
     'Spatie\\Permission\\' => array($vendorDir . '/spatie/laravel-permission/src'),
+    'Spatie\\EloquentSortable\\' => array($vendorDir . '/spatie/eloquent-sortable/src'),
     'Spatie\\DbDumper\\' => array($vendorDir . '/spatie/db-dumper/src'),
     'Spatie\\Backup\\' => array($vendorDir . '/spatie/laravel-backup/src'),
     'SocialiteProviders\\Weixin\\' => array($vendorDir . '/socialiteproviders/weixin'),

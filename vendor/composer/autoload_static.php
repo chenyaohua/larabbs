@@ -145,6 +145,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
             'Spatie\\ResponseCache\\' => 21,
             'Spatie\\Referer\\' => 15,
             'Spatie\\Permission\\' => 18,
+            'Spatie\\EloquentSortable\\' => 24,
             'Spatie\\DbDumper\\' => 16,
             'Spatie\\Backup\\' => 14,
             'SocialiteProviders\\Weixin\\' => 26,
@@ -441,6 +442,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Spatie\\Permission\\' => 
         array (
             0 => __DIR__ . '/..' . '/spatie/laravel-permission/src',
+        ),
+        'Spatie\\EloquentSortable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/eloquent-sortable/src',
         ),
         'Spatie\\DbDumper\\' => 
         array (
@@ -6367,6 +6372,8 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Spatie\\DbDumper\\Exceptions\\CannotSetParameter' => __DIR__ . '/..' . '/spatie/db-dumper/src/Exceptions/CannotSetParameter.php',
         'Spatie\\DbDumper\\Exceptions\\CannotStartDump' => __DIR__ . '/..' . '/spatie/db-dumper/src/Exceptions/CannotStartDump.php',
         'Spatie\\DbDumper\\Exceptions\\DumpFailed' => __DIR__ . '/..' . '/spatie/db-dumper/src/Exceptions/DumpFailed.php',
+        'Spatie\\EloquentSortable\\Sortable' => __DIR__ . '/..' . '/spatie/eloquent-sortable/src/Sortable.php',
+        'Spatie\\EloquentSortable\\SortableTrait' => __DIR__ . '/..' . '/spatie/eloquent-sortable/src/SortableTrait.php',
         'Spatie\\Permission\\Commands\\CreatePermission' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Commands/CreatePermission.php',
         'Spatie\\Permission\\Commands\\CreateRole' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Commands/CreateRole.php',
         'Spatie\\Permission\\Contracts\\Permission' => __DIR__ . '/..' . '/spatie/laravel-permission/src/Contracts/Permission.php',

@@ -5415,6 +5415,8 @@ return array(
     'Spatie\\DbDumper\\Exceptions\\CannotSetParameter' => $vendorDir . '/spatie/db-dumper/src/Exceptions/CannotSetParameter.php',
     'Spatie\\DbDumper\\Exceptions\\CannotStartDump' => $vendorDir . '/spatie/db-dumper/src/Exceptions/CannotStartDump.php',
     'Spatie\\DbDumper\\Exceptions\\DumpFailed' => $vendorDir . '/spatie/db-dumper/src/Exceptions/DumpFailed.php',
+    'Spatie\\EloquentSortable\\Sortable' => $vendorDir . '/spatie/eloquent-sortable/src/Sortable.php',
+    'Spatie\\EloquentSortable\\SortableTrait' => $vendorDir . '/spatie/eloquent-sortable/src/SortableTrait.php',
     'Spatie\\Permission\\Commands\\CreatePermission' => $vendorDir . '/spatie/laravel-permission/src/Commands/CreatePermission.php',
     'Spatie\\Permission\\Commands\\CreateRole' => $vendorDir . '/spatie/laravel-permission/src/Commands/CreateRole.php',
     'Spatie\\Permission\\Contracts\\Permission' => $vendorDir . '/spatie/laravel-permission/src/Contracts/Permission.php',
