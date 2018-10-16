@@ -51,6 +51,7 @@ return array(
     'SocialiteProviders\\Weixin\\' => array($vendorDir . '/socialiteproviders/weixin'),
     'SocialiteProviders\\Manager\\Test\\' => array($vendorDir . '/socialiteproviders/manager/tests'),
     'SocialiteProviders\\Manager\\' => array($vendorDir . '/socialiteproviders/manager/src'),
+    'RenatoMarinho\\LaravelPageSpeed\\' => array($vendorDir . '/renatomarinho/laravel-page-speed/src'),
     'Ramsey\\Uuid\\' => array($vendorDir . '/ramsey/uuid/src'),
     'Qiniu\\' => array($vendorDir . '/qiniu/php-sdk/src/Qiniu'),
     'Psy\\' => array($vendorDir . '/psy/psysh/src'),
