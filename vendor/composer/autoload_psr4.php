@@ -39,6 +39,7 @@ return array(
     'Symfony\\Component\\Cache\\' => array($vendorDir . '/symfony/cache'),
     'Symfony\\Bridge\\PsrHttpMessage\\' => array($vendorDir . '/symfony/psr-http-message-bridge'),
     'Summerblue\\Generator\\' => array($vendorDir . '/summerblue/generator/src'),
+    'Spatie\\Translatable\\' => array($vendorDir . '/spatie/laravel-translatable/src'),
     'Spatie\\TemporaryDirectory\\' => array($vendorDir . '/spatie/temporary-directory/src'),
     'Spatie\\String\\' => array($vendorDir . '/spatie/string/src'),
     'Spatie\\ResponseCache\\' => array($vendorDir . '/spatie/laravel-responsecache/src'),

@@ -70,6 +70,9 @@ class Kernel extends HttpKernel
             \RenatoMarinho\LaravelPageSpeed\Middleware\RemoveQuotes::class,
             \RenatoMarinho\LaravelPageSpeed\Middleware\CollapseWhitespace::class,
 
+            // 设置语言
+            \App\Http\Middleware\ChangeLocale::class,
+
         ],
 
         // API 中间件组，应用于 routes/api.php 路由文件

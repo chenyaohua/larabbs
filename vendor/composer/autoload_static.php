@@ -147,6 +147,7 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
             'Symfony\\Component\\Cache\\' => 24,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
             'Summerblue\\Generator\\' => 21,
+            'Spatie\\Translatable\\' => 20,
             'Spatie\\TemporaryDirectory\\' => 26,
             'Spatie\\String\\' => 14,
             'Spatie\\ResponseCache\\' => 21,
@@ -441,6 +442,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Summerblue\\Generator\\' => 
         array (
             0 => __DIR__ . '/..' . '/summerblue/generator/src',
+        ),
+        'Spatie\\Translatable\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-translatable/src',
         ),
         'Spatie\\TemporaryDirectory\\' => 
         array (
@@ -6525,6 +6530,10 @@ class ComposerStaticInit5c9202ad9e546b6d0c24b90ca97df4bf
         'Spatie\\String\\Integrations\\Underscore' => __DIR__ . '/..' . '/spatie/string/src/Integrations/Underscore.php',
         'Spatie\\String\\Str' => __DIR__ . '/..' . '/spatie/string/src/Str.php',
         'Spatie\\TemporaryDirectory\\TemporaryDirectory' => __DIR__ . '/..' . '/spatie/temporary-directory/src/TemporaryDirectory.php',
+        'Spatie\\Translatable\\Events\\TranslationHasBeenSet' => __DIR__ . '/..' . '/spatie/laravel-translatable/src/Events/TranslationHasBeenSet.php',
+        'Spatie\\Translatable\\Exceptions\\AttributeIsNotTranslatable' => __DIR__ . '/..' . '/spatie/laravel-translatable/src/Exceptions/AttributeIsNotTranslatable.php',
+        'Spatie\\Translatable\\HasTranslations' => __DIR__ . '/..' . '/spatie/laravel-translatable/src/HasTranslations.php',
+        'Spatie\\Translatable\\TranslatableServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-translatable/src/TranslatableServiceProvider.php',
         'Summerblue\\Generator\\Commands\\ScaffoldMakeCommand' => __DIR__ . '/..' . '/summerblue/generator/src/Commands/ScaffoldMakeCommand.php',
         'Summerblue\\Generator\\GeneratorException' => __DIR__ . '/..' . '/summerblue/generator/src/GeneratorException.php',
         'Summerblue\\Generator\\GeneratorsServiceProvider' => __DIR__ . '/..' . '/summerblue/generator/src/GeneratorsServiceProvider.php',
